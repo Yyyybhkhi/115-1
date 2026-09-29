@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int card=5;
-    card^=2;
-    printf("%d\n",card);
-    card^=2;
-    printf("%d\n",card);
+    int a=11;
+    int b=1<<2;
+    int c=a&b;
+
+
+    printf("%d\n",c);
     return 0;
 }
