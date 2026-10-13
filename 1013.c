@@ -2,8 +2,8 @@
 int main()
 {
     int temp;
-    printf("目前溫度";)
-    scanf("%d",tmep);
+    printf("目前溫度");
+    scanf("%d",&tmep);
     if(temp>=30)
     {
         printf("高溫");
