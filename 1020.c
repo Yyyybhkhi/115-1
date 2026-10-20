@@ -1,26 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int num;
-    printf("enter");
-    scanf("%d",num);
-    
-    while(num!=0)
+    int money;
+    int total=0;
+    do
     {
-        if(num>0)
-        {
-            printf("正");
-
-        }
-        else
-        {
-            printf("負");
-        }
-        printf("enter");
-        scanf("%d",num)
-    }
-    printf("%d\n",sum);
-
+        printf("請輸入提款金額（輸入0結束）：");
+        scanf("%d",&money);
+        total+=money;
+    } while (money !=0);
+    printf("total:%d",total);
+    
     return 0;
 
 }
